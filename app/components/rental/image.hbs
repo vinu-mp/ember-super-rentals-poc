@@ -1,0 +1,4 @@
+<button type="button"  class={{ concat "image" (if this.isLarge ' large')}} {{on "click" this.toggleZoom}}>
+  <img ...attributes/>
+  <small>{{if this.isLarge 'view smaller' 'view larger'}}</small>
+</button>
